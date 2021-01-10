@@ -46,7 +46,7 @@ Tried deep vs non-deep models. The non-deep model performed slightly better than
 
 Ensemble approach - combining predictions from different (weak & strong) classifiers. VotingClassifier over  RandomForest Classifier, PassiveAggressiveClassifier and a Linear SVC.
 
-## Results
+# Results
 
-Mean accuracy of 82.82% on dev dataset
+Mean accuracy of `82.82%` on dev dataset
 
