@@ -46,7 +46,7 @@ calls the classifier, trains the model and displays results on dev set.
 
 Tried deep vs non-deep models. The non-deep model performed slightly better than the Deep Neural Network model on average.
 
-Ensemble approach - combining predictions from different (weak & strong) classifiers. VotingClassifier over  RandomForest Classifier and a Linear SVC.
+Ensemble approach - combining predictions from different (weak & strong) classifiers. VotingClassifier over  RandomForest Classifier and a Support Vector Classifier.
 
 # Results
 
