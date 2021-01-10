@@ -1,5 +1,5 @@
 # ab-sentiment-analysis
-Aspect Based Sentiment Analysis on Anonymous User Reviews
+Aspect Based Sentiment Analysis(ABSA) on Restaurant User Reviews
 
 We have a file containing anonymized user reviews. For each review, we are also provided the `aspect` term or the word of interest. Our goal for each review is to predict the polarity (`POSITIVE`, `NEGATIVE` or `NEUTRAL`) of the user's opinion for the given aspect term.
 
