@@ -21,11 +21,11 @@ Two csv files containing user reviews, aspect term, aspect category and review p
 
 # Solution
 
-Place `traindata.csv` and `devdata.csv` inside `/data` at the same level as `/src`. Run the python script 
+Create `/data` at the same level as `/src`. Place `traindata.csv` and `devdata.csv` inside `/data`. Then,
 
     python src/testing.py
     
-Calls the classifier, trains the model and displays results on dev set
+calls the classifier, trains the model and displays results on dev set.
 
 ### Text Preprocessing
 
