@@ -25,13 +25,13 @@ Running the python script as below calls the classifier, trains the model and di
 
     python testing.py
 
-## Preprocessing
+### Text Preprocessing
 
   1. Basic preprocessing - converting to lowercase, punctuation and stop-word removal, lemmatization and spell correction.
   2. Some target words are phrases so combine all words in the phrase into a new word. Apply transformation on original sentences.
   3. Use polarity lexicons to assign higher weightage to words with repetitive letters like : 'looooove' or 'gooooood' (indicators of emotion?)
 
-## Feature Generation
+### Feature Generation
 
   1. Dependency graphs to parse sentences and find modifiers (ADJ/ADV/amod/advmod/attr) of target word. Add pre-trained word embeddings for modifier as feature
   (300 long vector, Google word embeddings)
@@ -40,7 +40,7 @@ Running the python script as below calls the classifier, trains the model and di
   4. Binary variable that is 1 when there is a CAPITAL CASE in the sentence and 0 otherwise.
   5. tf-idf representation of the sentence
 
-## Training
+### Training
 
 Tried deep vs non-deep models. The non-deep model performed slightly better than the Deep Neural Network model on average.
 
